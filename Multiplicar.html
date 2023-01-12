@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <Title>Ejercicio 3.1</Title>
+</head>
+<body>
+    <div id"=salida"></div>
+<script>
+    var num1 = parseInt(prompt("Dime un numero:"));
+    if (num1 < 0) {
+        alert("No se puede multiplicar");
+
+var res;
+for(var i=0; i<=10; i++){
+    res= num1 * i
+    var txt = num1 + "x" + i + "=" + res "<br>"
+    document.getElementById("salida").innerHTML += txt;
+    }
+    
+
+    alert("La tabla de multiplicar de dicho numero es:" + res);
+
+</script>
+
+</body>
+
+</html>
